@@ -1,0 +1,4 @@
+- pingall: 0% packet loss
+- Broadcast packets detected and limited
+- Flow rules installed successfully
+- Network performance improved
