@@ -84,14 +84,55 @@ iperf h1 h2
 * Packet loss decreased
 * Efficient packet forwarding achieved
 
----
 
 ## 📸 Screenshots
 
-Example:
-![Ping Result](screenshots/ping.png)
+### 🔹 Mininet Topology Setup
+
+![Mininet Setup](screenshots/mininet_setup.png)
 
 ---
+
+### 🔹 PingAll Result (Connectivity Test)
+
+![PingAll](screenshots/pingall.png)
+
+✔ Shows successful communication between all hosts
+
+---
+
+### 🔹 Ping Test Between Hosts
+
+![Ping Test](screenshots/ping_test.png)
+
+✔ Demonstrates low latency and stable communication
+
+---
+
+### 🔹 Iperf Performance Test
+
+![Iperf](screenshots/iperf_test.png)
+
+✔ Measures TCP bandwidth between hosts
+
+---
+
+### 🔹 Broadcast Detection in Controller
+
+![Broadcast Detection](screenshots/broadcast_detection.png)
+
+✔ Controller detects broadcast packets and counts them
+
+---
+
+### 🔹 OpenFlow Flow Rules
+
+![Flow Rules](screenshots/flow_rules.png)
+
+✔ Shows installed flow rules in switch (ovs-ofctl)
+
+---
+
 
 ## 🔄 OpenFlow Rules Verification
 
